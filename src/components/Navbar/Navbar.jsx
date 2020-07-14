@@ -1,12 +1,12 @@
 import React from 'react'
-import { useStyles } from './navbar.styles.js'
+import { useStyles } from './navbar.styles'
 
 export default function Navbar() {
     const classes = useStyles()
     return (
         <nav className={classes.navbar}>
             <div className={classes.leftItems}>
-                <div className='logo'>BANKA!</div>
+                <div className='logo'>LOGO!</div>
                 {/* <span>Dashboard</span> */}
             </div>
 
