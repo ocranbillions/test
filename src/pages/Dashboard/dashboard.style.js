@@ -5,6 +5,9 @@ export const useStyles = createUseStyles({
         width: '100%',
         marginTop: '10px',
         display: 'flex',
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
+        // border: '1px solid blue',
+        // height: ''
+        height: '-webkit-fill-available'
     }
 })
