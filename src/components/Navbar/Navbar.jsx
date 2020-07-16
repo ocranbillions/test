@@ -5,6 +5,7 @@ export default function Navbar() {
     const classes = useStyles()
     return (
         <nav className={classes.navbar}>
+            {/* <div></div> */}
             <div className={classes.leftItems}>
                 <div className='logo'>LOGO!</div>
                 {/* <span>Dashboard</span> */}
